@@ -58,5 +58,27 @@ figcaption {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 4px;
     width: 50%;
+    bottom: 2em;
+    right: 2em;
+    color: #fff;
+    padding
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
