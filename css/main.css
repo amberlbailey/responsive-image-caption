@@ -22,7 +22,9 @@ body {
 }
 
 h2 {
-  margin-bottom: 0;
+  margin-bottom: .5rem;
+  margin-top: .1rem;
+  font-family: "Denk One", sans-serif;
 }
 
 .img-flex {
@@ -44,6 +46,17 @@ figure {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .main {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  figure {
+    position: relative;
   }
 
 }
