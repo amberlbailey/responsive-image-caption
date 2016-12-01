@@ -29,8 +29,8 @@ h2 {
 }
 
 .img-flex {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 figure {
@@ -39,7 +39,7 @@ figure {
 }
 
 figcaption {
-  padding: 1.5rem 0 1.5rem 1.5rem;
+  padding: 1em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -57,11 +57,10 @@ figcaption {
     position: absolute;
     background-color: rgba(0, 0, 0, .3);
     border-radius: 4px;
-    width: 50%;
-    bottom: 2em;
-    right: 2em;
+    width: 49%;
+    bottom: 1em;
+    right: 1em;
     color: #fff;
-    padding
   }
 }
 
